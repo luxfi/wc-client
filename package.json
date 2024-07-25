@@ -1,6 +1,6 @@
 {
-  "name": "@luxfi/wc-client",
-  "version": "1.8.10",
+  "name": "@luxwallet/wc-client",
+  "version": "1.8.11",
   "description": "Client for WalletConnect",
   "publishConfig": {
     "access": "public"
