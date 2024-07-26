@@ -1,5 +1,5 @@
-import Connector from "@luxfi/wc-core";
-import { IWalletConnectOptions, IPushServerOptions } from "@luxfi/wc-types";
+import Connector from "@luxwallet/wc-core";
+import { IWalletConnectOptions, IPushServerOptions } from "@luxwallet/wc-types";
 declare class WalletConnect extends Connector {
     constructor(connectorOpts: IWalletConnectOptions, pushServerOpts?: IPushServerOptions);
 }

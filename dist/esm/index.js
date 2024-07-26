@@ -1,5 +1,5 @@
-import Connector from "@luxfi/wc-core";
-import * as cryptoLib from "@luxfi/wc-iso-crypto";
+import Connector from "@luxwallet/wc-core";
+import * as cryptoLib from "@luxwallet/wc-iso-crypto";
 class WalletConnect extends Connector {
     constructor(connectorOpts, pushServerOpts) {
         super({

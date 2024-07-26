@@ -7,16 +7,16 @@ For more details, read the [documentation](https://docs.walletconnect.org)
 ## Install
 
 ```bash
-yarn add @luxfi/wc-client
+yarn add @luxwallet/wc-client
 # OR
 
-npm install --save @luxfi/wc-client
+npm install --save @luxwallet/wc-client
 ```
 
 ## Initiate Connection
 
 ```javascript
-import WalletConnect from "@luxfi/wc-client";
+import WalletConnect from "@luxwallet/wc-client";
 
 // Create a connector
 const connector = new WalletConnect({
@@ -247,7 +247,7 @@ connector
 
 ```js
 import WalletConnect from "@walletconnect/browser";
-import WalletConnectQRCodeModal from "@luxfi/wc-qrcode-modal";
+import WalletConnectQRCodeModal from "@luxwallet/wc-qrcode-modal";
 
 // Create a connector
 const connector = new WalletConnect();
